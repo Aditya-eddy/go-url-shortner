@@ -1,0 +1,14 @@
+🐰 Keploy: 2024-02-13T00:35:51Z 	[34mINFO[0m	Keploy config not found, continuing without configuration
+🐰 Keploy: 2024-02-13T00:35:51Z 	[33mWARN[0m	buildDelay is set to 30s, incase your docker container takes more time to build use --buildDelay to set custom delay
+🐰 Keploy: 2024-02-13T00:35:51Z 	[34mINFO[0m	Example usage:keploy test -c "docker-compose up --build" --buildDelay 35s
+🐰 Keploy: 2024-02-13T00:35:51Z 	[34mINFO[0m		{"keploy test and mock path": "/home/aditya/Desktop/goUrlShortner/go-url-shortner/keploy", "keploy testReport path": "/home/aditya/Desktop/goUrlShortner/go-url-shortner/keploy/testReports/test-run-1"}
+🐰 Keploy: 2024-02-13T00:35:51Z 	[31mERROR[0m	Couldn't find containerName
+🐰 Keploy: 2024-02-13T00:35:51Z 	[34mINFO[0m	Example usage: keploy test -c "docker run -p 8080:8080 --network myNetworkName myApplicationImageName" --delay 6
+🐰 Keploy: 2024-02-13T00:35:51Z 	[31mERROR[0m	failed to start the CLI.	{"error": "missing required --containerName flag or containerName in config file"}
+🐰 Keploy: 2024-02-13T00:35:58Z 	[34mINFO[0m	Keploy config not found, continuing without configuration
+🐰 Keploy: 2024-02-13T00:35:58Z 	[33mWARN[0m	buildDelay is set to 30s, incase your docker container takes more time to build use --buildDelay to set custom delay
+🐰 Keploy: 2024-02-13T00:35:58Z 	[34mINFO[0m	Example usage:keploy test -c "docker-compose up --build" --buildDelay 35s
+🐰 Keploy: 2024-02-13T00:35:58Z 	[34mINFO[0m		{"keploy test and mock path": "/home/aditya/Desktop/goUrlShortner/go-url-shortner/keploy", "keploy testReport path": "/home/aditya/Desktop/goUrlShortner/go-url-shortner/keploy/testReports/test-run-1"}
+🐰 Keploy: 2024-02-13T00:35:58Z 	[31mERROR[0m	Couldn't find containerName
+🐰 Keploy: 2024-02-13T00:35:58Z 	[34mINFO[0m	Example usage: keploy test -c "docker run -p 8080:8080 --network myNetworkName myApplicationImageName" --delay 6
+🐰 Keploy: 2024-02-13T00:35:58Z 	[31mERROR[0m	failed to start the CLI.	{"error": "missing required --containerName flag or containerName in config file"}
